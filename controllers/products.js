@@ -1,5 +1,4 @@
 const Product = require('../models/product');
-const { createCustomError } = require('../errors/custom-error');
 
 const getAllProductsStatic = async (req, res) => {
   const products = await Product.find({ price: { $gt: 30 } })
@@ -45,7 +44,6 @@ const getAllProducts = async (req, res) => {
       }
     });
   }
-  console.log(queryObject);
 
   let result = Product.find(queryObject);
   // sort
