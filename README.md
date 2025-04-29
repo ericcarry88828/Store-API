@@ -1,4 +1,5 @@
-# Blogging Platform API
+# Store-API
+
 Store API is a simple and efficient API project focused on providing read access to product data. This API project implements only the GET method and offers a variety of filtering and sorting functionalities, allowing users to flexibly retrieve the desired product information.
 
 NOTE: This project does not implement a frontend client. The backend web service sends/recieves posts in JSON form. 
